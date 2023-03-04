@@ -102,7 +102,15 @@ footer{
 
 border-style:solid;
   border-width:5px;
-  border-color: blue;
+  background: linear-gradient(to right, red, purple);
   padding: 30px;
   margin: 30px;
+}
+.border2{
+
+ border-style: upset;
+ padding: 20px;
+ margin: 15px;
+ background: linear-gradient(to right, blue, white);
+
 }
