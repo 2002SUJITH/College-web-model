@@ -8,7 +8,7 @@
 
 main {
   color: #241b1b;
-  background-image: linear-gradient(rgb(149, 148, 194), rgb(183, 124, 79), rgb(89, 164, 93));
+  background-image: linear-gradient(rgb(149, 148, 194), rgb(183, 124, 79), rgb(211,211,211));
   background-size: cover;
   background-repeat: no-repeat;
 }
