@@ -100,8 +100,9 @@ footer{
 
 .border1{
 
-border-style:inset;
+border-style:solid;
   border-width:5px;
-  border-color:yellow red white green;
-  padding: 10px;
+  border-color: blue;
+  padding: 30px;
+  margin: 30px;
 }
