@@ -112,5 +112,10 @@ border-style:solid;
  padding: 20px;
  margin: 15px;
  background: linear-gradient(to right, blue, white);
-
+ padding:5px;
 }
+
+.module {
+ background: #222;
+ color: white;
+ padding: 2rem; }
