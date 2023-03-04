@@ -96,3 +96,12 @@ footer{
     transform: scaleY(1.0);
   }
 }
+
+
+.border1{
+
+border-style:inset;
+  border-width:5px;
+  border-color:yellow red white green;
+  padding: 10px;
+}
