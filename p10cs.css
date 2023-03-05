@@ -7,18 +7,21 @@
 }
 
 main {
-  color: #241b1b;
-  background-image: linear-gradient(rgb(149, 148, 194), rgb(183, 124, 79), rgb(211,211,211));
+  color: #ffffff;
+  background-image: linear-gradient(to right, rgb(16, 16, 22), rgb(110, 38, 25));;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+body{
+  
+  background-image: linear-gradient(black,rgb(52, 52, 79),rgb(31, 31, 95));;
+}
 header {
-  background-image: linear-gradient(rgb(186, 163, 104), rgb(24, 46, 63));
+  background-image:linear-gradient(rgb(110, 74, 52),rgb(91, 95, 37)); 
 }
 
 nav {
-  background-image:linear-gradient(rgb(73, 73, 122),rgb(23, 20, 41)); 
+  background-image:linear-gradient(rgb(110, 74, 52),rgb(91, 95, 37)); 
   height: 50px;
 }
 
@@ -32,7 +35,7 @@ nav a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,7 +49,7 @@ nav a {
   margin-bottom: 20px;
 }
 footer{
-  background-color: rgb(12, 67, 27);
+  background-color: rgb(9, 33, 69);
   height: 100px;
 }
 .rect1,
@@ -57,7 +60,7 @@ footer{
   width: 6px;
   height: 30px;
   margin-right: 3px;
-  background-color: #f8b195;
+  background-color: #2e9221;
   animation: stretchdelay 1.2s infinite ease-in-out;
 }
 
@@ -78,9 +81,10 @@ footer{
 }
 
 .loading-title {
-  color: #f8b195;
+  color: #ffffff;
   font-size: 36px;
   font-weight: bold;
+  font-style: italic;
   text-align: center;
 }
 
@@ -97,24 +101,32 @@ footer{
   }
 }
 
+.heading{
+  color:rgb(23, 23, 87) ;
+  text-align:center;
+  font-size:50px;
+}
 
 .border1{
 
-border-style:solid;
+ border-style:solid;
   border-width:5px;
-  background: linear-gradient(to right,blue, light blue);
-  padding: 15px;
+  border-color: white;
+  background: linear-gradient(to right,rgb(244, 244, 245), light rgb(7, 7, 189));
+  padding: 5px;
   margin: 10px;
 }
 .border2{
-
+  width:770px;
  border-style: solid;
- padding: 20px;
- margin: 15px;
- background: linear-gradient(to right, blue, white);
+ padding: 5px;
+ margin: 10px;
+ background: linear-gradient(to right, rgb(196, 21, 21), rgb(225, 11, 225));
 }
 
 .module {
- background: #222;
- color: white;
+  width:700px;
+  height:300px;
+ background-image: linear-gradient(to right, rgb(43, 18, 66),rgb(94, 21, 94));
+ color: rgb(255, 249, 249);
  padding: 2rem; }
